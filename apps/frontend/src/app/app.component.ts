@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { HeaderComponent } from './modules/header/header.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @Component({
   standalone: true,
@@ -13,5 +13,5 @@ import { HeaderComponent } from './modules/header/header.component';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'frontend';
+  title = 'jd-clone';
 }
