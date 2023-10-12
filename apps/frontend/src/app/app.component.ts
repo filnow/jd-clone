@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { HeaderComponent } from './modules/header/header.component';
 
 @Component({
   standalone: true,
-  imports: [RouterModule, MatSlideToggleModule],
+  imports: [RouterModule, 
+            MatSlideToggleModule, 
+            HeaderComponent],
   selector: 'jd-clone-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
