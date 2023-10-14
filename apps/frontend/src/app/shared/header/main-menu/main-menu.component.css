@@ -1,0 +1,18 @@
+.main-menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 7%;
+    
+}
+
+.main-menu-list li {
+    margin-right: 1%;
+    padding-right: 10px;
+}
+
+.main-menu-list-item {
+    font-size: 20px;
+    font: 500 "Gotham", sans-serif;
+}

@@ -1,0 +1,7 @@
+<div class="main-menu-list">
+    <li *ngFor="let item of menuItems">
+        <button class="main-menu-list-item" [style.color]="item.theme">
+            {{item.name}}
+        </button>
+    </li>
+</div>

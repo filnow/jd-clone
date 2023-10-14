@@ -5,6 +5,8 @@ import {MatButtonModule} from '@angular/material/button';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { BasketComponent } from './basket/basket.component';
 import { TopMenuComponent } from './top-menu/top-menu.component';
+import { MainMenuComponent } from './main-menu/main-menu.component';
+import { UpsBoxComponent } from './ups-box/ups-box.component';
 
 @Component({
   selector: 'header-component',
@@ -14,7 +16,9 @@ import { TopMenuComponent } from './top-menu/top-menu.component';
             MatButtonModule,
             SearchBarComponent,
             BasketComponent,
-            TopMenuComponent],
+            TopMenuComponent,
+            MainMenuComponent,
+            UpsBoxComponent],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
 })
