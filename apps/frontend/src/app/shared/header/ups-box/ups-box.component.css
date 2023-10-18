@@ -1,29 +1,13 @@
 .ups-box-content {
     display: flex;
-    align-items: center;
     list-style: none;
-    background-color: #ffed03;
-    padding: 0; 
-    justify-content: space-between; 
-    height: 5vh;
-    margin-top: 1%;
-    white-space: nowrap;
   }
 
 .ups-box-content li {
-    flex: 1; 
-    text-align: center; 
     text-transform: uppercase;
     font-size: 15px;
     font: 400 "Gotham",sans-serif;
-    margin: 0 10%;
+    margin: 27%;
     font-weight: 500;
 }
 
-.ups-box-content li:nth-child(1) {
-    text-align: left;
-}
-
-.ups-box-content li:nth-child(3) {
-    text-align: right;
-}

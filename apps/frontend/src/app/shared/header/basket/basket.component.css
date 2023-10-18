@@ -1,22 +1,15 @@
 .basket {
-    position: fixed;
-    top: 0; 
-    right: 0; 
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 5%; 
+    height: 40px; 
     width: 240px; 
-    padding: 5px;
     background-color: #f2f2f2;
-    margin-top: 3%;
-    margin-right: 2%;
 }
 
 .basket span {
     padding-left: 9px;
-    font: 300 11px/14px "Gotham", sans-serif;
+    font: 300 11px "Gotham", sans-serif;
     color: #000;
     letter-spacing: 0.33px;
-    cursor: default;
 }

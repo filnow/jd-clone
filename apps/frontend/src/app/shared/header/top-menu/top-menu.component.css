@@ -1,25 +1,14 @@
 .top-menu-list {
     display: flex;
     align-items: center;
-    justify-content: right;
     list-style: none;
-    background-color: #fff;
-    height: 20px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 100;
-    margin-top: 1%;
     font-size: 14px;
     letter-spacing: 0.33px;
-    font: 300 11px/14px "Gotham", sans-serif; 
-    color: #020202; 
-    padding: 0;
-    /* font, letter spacing and color from jd website */
+    font: 300 11px  "Gotham", sans-serif;
+    justify-content: right; 
 }
 
 .top-menu-list li {
-    margin-right: 2%;
-    padding-right: 10px; 
+    margin-right: 3%;
+    padding-right: 15px;
 }

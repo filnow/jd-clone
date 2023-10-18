@@ -2,46 +2,28 @@
     display: flex;
     align-items: center;
     justify-content: right;
+    width: 414px;
+    height: 40px;
 }
 
 .search-bar {
-    position: fixed;
-    top: 0; 
-    right: 0; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 5%; 
-    width: 500px; 
-    padding: 5px;
-    margin-top: 3%;
-    margin-right: 20%;
-    border: 1px solid #E5E5E5 !important;
-    border-right: none !important;
-    padding-left: 9px;
-    font: 300 11px/14px "Gotham", sans-serif;
+    border: 1px solid #E5E5E5;
+    border-right: none;
+    font: 300 11px "Gotham", sans-serif;
     color: #000;
     letter-spacing: 0.33px;
-    cursor: default;
+    height: 100%;
+    width: 100%;
+    padding-left: 2%;
 }
 
 .search-button {
-    position: fixed;
-    top: 0; 
-    right: 0; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 5%; 
-    width: 100px; 
-    padding: 5px;
-    margin-top: 3%;
-    margin-right: 17%;
-    border: 1px solid #E5E5E5 !important;
-    padding-left: 9px;
-    font: 300 11px/14px "Gotham", sans-serif;
+    border: 1px solid #E5E5E5;
+    border-left: none;
+    font: 300 11px "Gotham", sans-serif;
     color: #000;
     letter-spacing: 0.33px;
-    cursor: default;
     background-color: #43d5b0;
+    height: 100%;
+    width: 30%;
 }
