@@ -3,12 +3,15 @@ import { CommonModule } from '@angular/common';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CarouselForyouComponent } from './carousel-foryou/carousel-foryou.component';
 import { CarouselCategoryComponent } from './carousel-category/carousel-category.component';
+import { CarouselNewsComponent } from './carousel-news/carousel-news.component';
+import { CarouselBottomComponent } from './carousel-bottom/carousel-bottom.component';
 
 @Component({
   selector: 'home-page',
   standalone: true,
   imports: [CommonModule, CarouselComponent, 
-            CarouselForyouComponent, CarouselCategoryComponent],
+            CarouselForyouComponent, CarouselCategoryComponent,
+            CarouselNewsComponent, CarouselBottomComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
 })

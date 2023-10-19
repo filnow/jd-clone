@@ -1,0 +1,50 @@
+.carousel-header {
+    font-size: 32px;
+    letter-spacing: 0;
+    font: 600 34px "Gotham", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    color: #000;
+}
+
+.carousel-content {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+    margin-left: 1%;
+    justify-content: flex-end;
+}
+
+.carousel-item {
+    display: inline-block; 
+    margin-right: 10px;
+} 
+
+.main-carousel {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.item-price {
+    color: #020202;
+    font: 500 22px Gotham,sans-serif;
+    letter-spacing: .66px;
+    padding-top: 16px;
+    font-weight: bold;
+}
+
+.item-name {
+    font: 300 22px Gotham,sans-serif;
+    letter-spacing: .42px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    white-space: nowrap;
+}

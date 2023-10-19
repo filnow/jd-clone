@@ -5,5 +5,15 @@
 
 .carousel-category {
     width: 100%;
+    min-height: 100vh;
+}
+
+.carousel-news {
+    width: 100%;
+    height: calc(100vw / 4 + 126px);
+}
+
+.carousel-bottom {
+    width: 100%;
     height: calc(100vw / 4 + 126px);
 }

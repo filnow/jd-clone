@@ -15,7 +15,6 @@
     padding: 0; 
     margin-left: 1%;
     justify-content: flex-end;
-    
 }
 
 .main-carousel {
@@ -24,7 +23,7 @@
     flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     padding-top: 4%;
 }
 
@@ -68,7 +67,7 @@
     flex-direction: column;
     align-items: left;
     justify-content: flex-end;
-    padding: 10px; /* Adjust the padding as needed */
+    padding: 10px; 
     width: 100%;
 }
 
@@ -78,8 +77,14 @@
     padding: 5px;
     margin: 5px;
     height: 65px;
-    width: 100%; /* Make the category buttons span the full width */
+    width: 100%; 
     text-align: center;
     background-color: #fff;
     border: 1px solid #fff;
+}
+
+.category-button:hover {
+    background: #2f2f2f;; 
+    border-color: #2f2f2f;
+    color: #fff;
 }
