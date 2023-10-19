@@ -1,0 +1,85 @@
+.carousel-header {
+    font-size: 32px;
+    letter-spacing: 0;
+    font: 600 34px "Gotham", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    color: #000;
+}
+
+.carousel-content {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+    margin-left: 1%;
+    justify-content: flex-end;
+    
+}
+
+.main-carousel {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 4%;
+}
+
+
+.carousel-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.item-container {
+    position: relative;
+    text-align: center;
+}
+
+.item-container img {
+    max-width: 100%;
+}
+
+.item-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.item-name {
+    margin: 0;
+    font: 1000 70px Gotham,sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px #707070;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+}
+
+.category-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-end;
+    padding: 10px; /* Adjust the padding as needed */
+    width: 100%;
+}
+
+.category-button {
+    background: rgba(255, 255, 255, 0.7);
+    font: 21px "Gotham",sans-serif;
+    padding: 5px;
+    margin: 5px;
+    height: 65px;
+    width: 100%; /* Make the category buttons span the full width */
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+}

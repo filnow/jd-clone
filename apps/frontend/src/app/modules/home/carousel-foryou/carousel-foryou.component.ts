@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { CarouselModule } from '@coreui/angular';
 
 
 interface CarouselItem {
@@ -11,11 +12,13 @@ interface CarouselItem {
 @Component({
   selector: 'homepage-carousel-foryou',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CarouselModule],
   templateUrl: './carousel-foryou.component.html',
   styleUrls: ['./carousel-foryou.component.css'],
 })
 export class CarouselForyouComponent {
+
+  header: string = 'Wybrane dla Ciebie'
 
   carouselList: Array<CarouselItem> = [
     {
