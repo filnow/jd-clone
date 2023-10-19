@@ -1,0 +1,11 @@
+.button-see {
+    position: absolute;
+    background-color: #fff;
+    right: 55px;
+    bottom: 64px;
+    left: auto;
+    min-width: 264px;
+    padding: 30px 48px;
+    font-size: 24px;
+    font: 300 24px "Gotham",sans-serif;
+}
