@@ -1,0 +1,60 @@
+.carousel-content {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.carousel-item {
+    display: inline-block;
+    margin-right: 2%;   
+}
+
+.main-carousel {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5%;
+    padding-right: 3%;
+}
+
+.item-price {
+    color: #020202;
+    font: 600 22px Gotham, sans-serif;
+    letter-spacing: .66px;
+    margin-top: 3%;
+    transition: transform 0.3s;
+    transform-origin: 0% 50%;
+}
+
+.img-div{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-div img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+}
+
+.img-div:hover img {
+    transform: scale(1.05);
+    width: 100%;
+}
+
+.arrow-icon {
+    color: #020202;
+    font-size: 35px;
+    font-weight: bold;
+    width: auto;
+}
+
+.item-price:hover {
+    transform: scaleX(1.1);
+    letter-spacing: 1px;
+}

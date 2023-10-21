@@ -15,5 +15,15 @@
 
 .carousel-bottom {
     width: 100%;
+    height: calc(100vw / 4 + 270px);
+}
+
+.carousel-seemore {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.carousel-bestsellers {
+    width: 100%;
     height: calc(100vw / 4 + 126px);
 }

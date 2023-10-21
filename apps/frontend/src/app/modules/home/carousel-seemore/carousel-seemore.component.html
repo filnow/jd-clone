@@ -1,0 +1,13 @@
+<div class="main-carousel">
+    <ul class="carousel-content">
+        <li *ngFor="let item of carouselList" class="carousel-item">
+            <div class="img-div">
+                <img src="{{item.picture}}">
+            </div>
+            <div class="item-price">
+                <span>Zobacz więcej</span>
+                <mat-icon class="arrow-icon">arrow_right_alt</mat-icon>
+            </div>
+        </li>
+    </ul>
+</div>

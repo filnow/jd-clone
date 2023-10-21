@@ -1,0 +1,20 @@
+<div class="main-carousel">
+    <div class="carousel-header">
+        <h2>{{header}}</h2>
+    </div>
+    <ul class="carousel-content">
+        
+        <li *ngFor="let item of carouselList" class="carousel-item">
+            <div>
+                <img src="{{item.picture}}">
+            </div>
+            <div class="item-price">
+                <span>{{item.price}}</span>
+            </div>
+            <div class="item-name">
+                <h3>{{item.name}}</h3>
+            </div>
+        </li>
+    
+    </ul>
+</div>
