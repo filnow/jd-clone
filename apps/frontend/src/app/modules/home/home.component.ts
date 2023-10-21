@@ -7,6 +7,7 @@ import { CarouselNewsComponent } from './carousel-news/carousel-news.component';
 import { CarouselBottomComponent } from './carousel-bottom/carousel-bottom.component';
 import { CarouselSeemoreComponent } from './carousel-seemore/carousel-seemore.component';
 import { CarouselBestsellersComponent } from './carousel-bestsellers/carousel-bestsellers.component';
+import { LogosComponent } from './logos/logos.component';
 
 @Component({
   selector: 'home-page',
@@ -14,7 +15,8 @@ import { CarouselBestsellersComponent } from './carousel-bestsellers/carousel-be
   imports: [CommonModule, CarouselComponent, 
             CarouselForyouComponent, CarouselCategoryComponent,
             CarouselNewsComponent, CarouselBottomComponent,
-            CarouselSeemoreComponent, CarouselBestsellersComponent],
+            CarouselSeemoreComponent, CarouselBestsellersComponent,
+            LogosComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
 })

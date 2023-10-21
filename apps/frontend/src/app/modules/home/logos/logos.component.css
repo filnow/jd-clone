@@ -1,0 +1,51 @@
+.main-carousel {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.carousel-header {
+    font-size: 32px;
+    letter-spacing: 0;
+    font: 600 34px "Gotham", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2%;
+    color: #000;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    padding-left: 100%;
+    animation: rotateImages 15s linear infinite;
+    white-space: nowrap;
+    justify-content: center;    
+}
+
+.logo {
+    width: 140px;
+    aspect-ratio: auto 140 / 100;
+    height: 100px;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+@keyframes rotateImages {
+    0% {
+        transform: translate3d(0, 0, 0);
+      }
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
