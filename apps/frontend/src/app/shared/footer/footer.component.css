@@ -13,7 +13,3 @@
     white-space: nowrap;
 }
 
-.newsletter {
-    height: calc(100vw / 4 + 126px);
-    width: 100%;
-}

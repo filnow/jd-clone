@@ -1,0 +1,153 @@
+.banner-container {
+    display: flex; 
+    padding: 2%; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-left {
+    width: 447px;
+    height: 447px;
+    background: #2e2e2e;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    padding: 15%;
+    color: white;
+}
+
+.banner-left-header {
+    font: 400 16px "Gotham Medium", sans-serif;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 16px auto;
+    width: 80%;
+    max-width: 142px;
+}
+
+.banner-description {
+    margin: 16px auto;
+    width: 80%;
+    max-width: 142px;
+    font: 400 14px "Gotham", sans-serif;
+}
+
+.banner-button {
+    margin: 16px auto;
+    margin-top: 1%;
+    width: 80%;
+    max-width: 142px;
+}
+
+.banner-button button {
+    border: white 1px solid;
+    font: 300 10px "Gotham Medium", sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    height: 40px;
+}
+
+.banner-button button:hover {
+    background-color: #43d5b0;
+    border: #43d5b0 1px solid;
+    
+}
+
+.banner-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-center {
+    width: 447px;
+    height: 447px;
+    background: #2e2e2e;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner-center-header {
+    font: 400 16px "Gotham Medium", sans-serif;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 80%;
+    max-width: 142px;
+}
+
+.banner-center-description {
+    text-align: center;
+    margin: 14px auto;
+    width: 80%;
+    font: 400 12px "Gotham", sans-serif;
+}
+
+.banner-center-button {
+    margin-top: 1%;
+    width: 80%;
+}
+
+.banner-center-button button {
+    border: white 1px solid;
+    font: 300 12px "Gotham Medium", sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    height: 175%;
+}
+
+.banner-center-button button:hover {
+    background-color: #43d5b0;
+    border: #43d5b0 1px solid;
+}
+
+.banner-right {
+    width: 447px;
+    height: 447px;
+    background: #2e2e2e;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-right-content {
+    width: 80%;
+    margin: 14px auto;
+}
+
+.banner-right-header {
+    font: 400 16px "Gotham Medium", sans-serif;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 16px auto;
+
+}
+
+.banner-right-description {
+    text-align: left;
+    margin: 14px auto;
+
+    font: 400 14px "Gotham", sans-serif;
+}
