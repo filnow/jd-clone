@@ -1,0 +1,25 @@
+.social-container {
+    justify-content: flex-start;
+    max-width: 100%;
+    padding-left: 250px;
+    
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font: 400 14px/24px "Gotham",sans-serif;
+    color: #fff;
+    letter-spacing: .66px;
+}
+
+.icons {
+    /* Apply margin to the icons to create space between them */
+    display: flex;
+    margin-left: 25px; /* Adjust the margin as needed */
+}
+
+.icons svg {
+    margin-right: 25px; /* Adjust the margin as needed */
+}

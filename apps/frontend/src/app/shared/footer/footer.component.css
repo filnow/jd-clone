@@ -1,0 +1,19 @@
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: flex-start;
+    height: 6vh;
+    white-space: nowrap;
+}
+
+.newsletter {
+    height: calc(100vw / 4 + 126px);
+    width: 100%;
+}
