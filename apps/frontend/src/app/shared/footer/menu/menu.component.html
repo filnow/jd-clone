@@ -1,1 +1,16 @@
-<p>menu works!</p>
+<div class="menu-container">
+    <ul class="menu-content">
+        <li *ngFor="let item of menuList" class="menu-item">
+            <div class="item-header">
+                <span>{{item.header}}</span>
+            </div>
+            <div class="item-list">
+                <ul>
+                    <li *ngFor="let subitem of item.list" class="item-content">
+                        <p>{{subitem}}</p>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>

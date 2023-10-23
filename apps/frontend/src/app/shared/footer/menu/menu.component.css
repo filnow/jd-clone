@@ -1,0 +1,53 @@
+.menu-content {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+    margin-left: 1%;
+    justify-content: flex-start;
+}
+
+.menu-item {
+    display: inline-block; 
+    margin-right: 10px;
+    padding-left: 17%;
+    padding-right: 40%;
+    padding-top: 0;
+    padding-bottom: 0;
+} 
+
+.menu-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border: #e8e8e8 1px solid;
+    border-right: none;
+}
+
+.item-header {
+    color: #020202;
+    padding: 6px 0;
+    font: 500 16px "Gotham",sans-serif;
+    letter-spacing: .66px;
+    padding-top: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.item-list {
+    font: 300 11px "Gotham",sans-serif;
+    letter-spacing: .42px;
+    padding: 2px 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.item-content {
+    padding-bottom: 10%;
+}
