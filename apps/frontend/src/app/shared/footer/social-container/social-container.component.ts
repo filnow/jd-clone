@@ -5,7 +5,7 @@ import { cibFacebookF, cibInstagram } from '@coreui/icons';
 import { IconModule } from '@coreui/icons-angular';
 
 @Component({
-  selector: 'footer-social-container',
+  selector: 'jd-clone-social-container',
   standalone: true,
   imports: [CommonModule, MatIconModule, IconModule],
   templateUrl: './social-container.component.html',

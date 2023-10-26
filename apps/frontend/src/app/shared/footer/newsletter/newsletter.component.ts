@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'footer-newsletter',
+  selector: 'jd-clone-newsletter',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './newsletter.component.html',

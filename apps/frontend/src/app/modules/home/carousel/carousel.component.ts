@@ -5,7 +5,7 @@ import {RouterModule} from '@angular/router'
 
 
 @Component({
-  selector: 'home-page-carousel',
+  selector: 'jd-clone-carousel',
   standalone: true,
   imports: [CommonModule, CarouselModule, RouterModule],
   templateUrl: './carousel.component.html',

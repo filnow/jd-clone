@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { CarouselModule } from '@coreui/angular';
 
 @Component({
-  selector: 'homepage-carousel-bottom',
+  selector: 'jd-clone-carousel-bottom',
   standalone: true,
   imports: [CommonModule, CarouselModule],
   templateUrl: './carousel-bottom.component.html',

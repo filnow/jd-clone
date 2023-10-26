@@ -9,7 +9,7 @@ interface MenuItem {
 }
 
 @Component({
-  selector: 'header-main-menu',
+  selector: 'jd-clone-main-menu',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './main-menu.component.html',

@@ -5,7 +5,7 @@ import { IconModule } from '@coreui/icons-angular';
 
 
 @Component({
-  selector: 'footer-banners',
+  selector: 'jd-clone-banners',
   standalone: true,
   imports: [CommonModule, IconModule],
   templateUrl: './baners.component.html',

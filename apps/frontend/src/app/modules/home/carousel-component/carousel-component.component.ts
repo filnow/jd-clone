@@ -4,7 +4,7 @@ import { CarouselItem } from '../home.component';
 
 
 @Component({
-  selector: 'homepage-carousel-component',
+  selector: 'jd-clone-carousel-component',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './carousel-component.component.html',
@@ -12,7 +12,7 @@ import { CarouselItem } from '../home.component';
 })
 export class CarouselComponentComponent {
 
-  @Input() header: string = '';
+  @Input() header = '';
   @Input() carouselList: CarouselItem[] = []
 
 }

@@ -8,7 +8,7 @@ interface Menu {
 }
 
 @Component({
-  selector: 'footer-menu',
+  selector: 'jd-clone-menu',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './menu.component.html',

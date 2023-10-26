@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'header-ups-box',
+  selector: 'jd-clone-ups-box',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './ups-box.component.html',

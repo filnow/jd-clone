@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'homepage-logos',
+  selector: 'jd-clone-logos',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './logos.component.html',

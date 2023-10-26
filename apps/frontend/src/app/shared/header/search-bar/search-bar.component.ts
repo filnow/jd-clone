@@ -5,7 +5,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 
 @Component({
-  selector: 'header-search-bar',
+  selector: 'jd-clone-search-bar',
   standalone: true,
   imports: [CommonModule, MatInputModule,
             MatIconModule, MatButtonModule],
@@ -13,5 +13,5 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrls: ['./search-bar.component.css'],
 })
 export class SearchBarComponent {
-  placeHolder: string = 'Szukasz Nike, adidas, nowości itp.?';
+  placeHolder = 'Szukasz Nike, adidas, nowości itp.?';
 }

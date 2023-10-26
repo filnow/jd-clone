@@ -10,7 +10,7 @@ interface CarouselItem {
 }
 
 @Component({
-  selector: 'homepage-carousel-category',
+  selector: 'jd-clone-carousel-category',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './carousel-category.component.html',
@@ -18,7 +18,7 @@ interface CarouselItem {
 })
 export class CarouselCategoryComponent {
 
-  header: string = 'Kategorie';
+  header = 'Kategorie';
 
   carouselList: Array<CarouselItem> = [
     {

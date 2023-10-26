@@ -14,7 +14,7 @@ export interface CarouselItem {
 }
 
 @Component({
-  selector: 'home-page',
+  selector: 'jd-clone-homepage',
   standalone: true,
   imports: [CommonModule, CarouselComponent, 
             CarouselCategoryComponent, CarouselBottomComponent,
@@ -25,9 +25,9 @@ export interface CarouselItem {
 })
 export class HomeComponent {
 
-  headerBestsellers: string = 'Bestsellers'
-  headerForYou: string = 'Wybrane dla Ciebie'
-  headerNew: string = 'Nowości'
+  headerBestsellers = 'Bestsellers'
+  headerForYou = 'Wybrane dla Ciebie'
+  headerNew = 'Nowości'
 
   carouselList: CarouselItem[] = [
     {

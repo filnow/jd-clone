@@ -8,7 +8,7 @@ interface CarouselItem {
 }
 
 @Component({
-  selector: 'homepage-carousel-seemore',
+  selector: 'jd-clone-carousel-seemore',
   standalone: true,
   imports: [CommonModule, MatIconModule],
   templateUrl: './carousel-seemore.component.html',

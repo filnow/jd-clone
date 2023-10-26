@@ -8,7 +8,7 @@ interface menuListItem {
 }
 
 @Component({
-  selector: 'header-top-menu',
+  selector: 'jd-clone-top-menu',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './top-menu.component.html',

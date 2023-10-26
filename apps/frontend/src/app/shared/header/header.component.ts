@@ -9,7 +9,7 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
 import { UpsBoxComponent } from './ups-box/ups-box.component';
 
 @Component({
-  selector: 'header-component',
+  selector: 'jd-clone-component',
   standalone: true,
   imports: [CommonModule, 
             MatIconModule, 
